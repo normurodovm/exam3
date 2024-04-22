@@ -1,0 +1,124 @@
+.delivery {
+    padding-top: 64px;
+}
+
+.delivery__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+}
+
+.delivery__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #6b6b6c;
+}
+
+.delivery__sub_title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    color: #363738;
+}
+
+.delivery__tablet_text {
+    display: none;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #6b6b6c;
+}
+.delivery__item {
+    padding: 24px 6px 32px 48px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+
+.delivery__item1,
+.delivery__item2 {
+    margin-bottom: 30px;
+}
+.delivery__length{
+    display: none;
+    border: 3px solid #ffce50;
+    width: 92px;
+    height: 0px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+@media screen and (min-width:768px) {
+    .delivery__text{
+        display: none;
+        
+    }
+    .delivery__tablet_text{
+        display: block;
+    }
+    .delivery__item{
+        padding: 40px 76px 48px 85px;
+    }
+    .delivery__length{
+        display: block;
+    }
+    .delivery__title{
+        font-size: 44px;
+    }
+}
+@media screen and (min-width:992px) {
+    .delivery__text{
+        display: none;
+    }
+    .delivery__tablet_text{
+        display: block;
+    }
+    .delivery__item{
+        padding: 32px 132px 32px 438px;
+        position: relative;
+    }
+    .delivery__item1{
+        &::before{
+            content: "";
+            background-repeat: no-repeat;
+            background-image: url(../img/delivery-img1.png);
+            position: absolute;
+            width: 331px;
+            height: 181px;
+            left: 60px;
+            top: 52px;
+        }
+    }
+    .delivery__item2{
+        &::before{
+            content: "";
+            background-repeat: no-repeat;
+            background-image: url(../img/delivery-img2.png);
+            position: absolute;
+            width: 331px;
+            height: 181px;
+            left: 60px;
+            top: 52px;
+        }
+    }
+    .delivery__item3{
+        &::before{
+            content: "";
+            background-repeat: no-repeat;
+            background-image: url(../img/delivery-img3.png);
+            position: absolute;
+            width: 331px;
+            height: 181px;
+            left: 60px;
+            top: 52px;
+        }
+    }
+    .delivery__length{
+        display: block;
+    }
+    .delivery__title{
+        font-size: 44px;
+    }
+}

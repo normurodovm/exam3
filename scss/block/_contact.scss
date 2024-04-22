@@ -1,0 +1,136 @@
+.contact {
+    padding-top: 82px;
+}
+
+.contact__title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 82px;
+}
+
+.contact__item {
+    padding-left: 60px;
+    position: relative;
+}
+
+.contact__item1::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../img/contact-icon.svg);
+    width: 24px;
+    height: 32px;
+    position: absolute;
+    left: 18px;
+}
+
+.contact__item2::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../img/contact-icon2.svg);
+    width: 28px;
+    height: 18px;
+    position: absolute;
+    left: 18px;
+    bottom: 20px;
+}
+
+.contact__item3::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../../img/contact-icon3.svg);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 18px;
+    bottom: 10px;
+}
+
+.contact__item4::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-image: url(../img/contact-icon4.svg);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    left: 18px;
+    bottom: 10px;
+}
+
+.contact__text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #6b6b6c;
+    margin-bottom: 0;
+}
+
+.contact__link {
+    font-weight: 600;
+    font-size: 20px;
+    color: #363738;
+    margin-top: 0;
+}
+
+.contact__item3,
+.contact__item2,
+.contact__item1 {
+    margin-bottom: 30px;
+}
+
+.contact__list1 {
+    margin-bottom: 81px;
+}
+
+.contact__list {
+    background-color: #F9F9FB;
+    max-width: 345px;
+    border-radius: 5px;
+    padding: 31px 17px 51px 31px;
+}
+
+.contact__des {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 125%;
+    color: #6b6b6c;
+}
+
+.contact__des2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    color: #363738;
+}
+
+.contact__length {
+    border: 1px solid #e9eaf2;
+    width: 297px;
+    height: 0px;
+}
+
+@media screen and (min-width:768px) {
+    .contact__list {
+        max-width: 690px;
+    }
+
+    .contact__item_block {
+        display: flex;
+        gap: 106px;
+    }
+
+    .contact__length {
+        border: 1px solid #e9eaf2;
+        width: 634px;
+        height: 0px;
+    }
+}
+@media screen and (min-width:992px) {
+    .contact__content{
+        display: flex;
+        justify-content: space-between;
+    }
+}

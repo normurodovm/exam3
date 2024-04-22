@@ -1,0 +1,118 @@
+.hero {
+    padding-top: 75px;
+}
+
+.hero__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 125%;
+    color: #363738;
+    margin-bottom: 32px;
+}
+.hero__des{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    color: #363738;
+}
+.hero__sub_title{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    color: #000;
+}
+.hero__length{
+    border: 3px solid #ffce50;
+    width: 99px;
+    margin: 0px;
+}
+.hero__block{
+    max-width: 344px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hero__img{
+    margin-top: 40px;
+    max-width: 345px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero__tablet{
+    display: none;
+}
+.hero__desktop{
+    display: none;
+}
+@media screen and (min-width:768px) {
+    .hero__block{
+        max-width: 690px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero__title{
+        font-size: 44px;
+        margin-bottom: 49px;
+    }
+    .hero__des{
+        font-size: 16px;
+        margin-bottom: 44px;
+    }
+    .hero__sub_title{
+        font-size: 16px;
+    }
+    .hero__length{
+        max-width: 104px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hero__img{
+        margin-top: 73px;
+        max-width: 690px;
+    }
+    .hero__tablet{
+        display: inline-block;
+    }
+    .hero__mobile{
+        display: none;
+    }
+    .hero {
+        padding-top: 117px;
+    }
+}
+@media screen and (min-width:992px) {
+    .hero {
+        padding-top: 109px;
+    }
+    .hero__content{
+        text-align: start;
+        max-width: 610px;
+    }
+    .hero__block{
+        max-width: 1440px;
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+    }   
+    .hero__mobile{
+        display: none;
+    }
+    .hero__desktop{
+        display: inline-block;
+    }
+    .hero__tablet{
+        display: none;
+    }
+    .hero__length{
+        margin: 0px;
+    }
+    .hero__title{
+        font-size: 52px;
+        margin-bottom: 40px;
+    }
+    .hero__des{
+        margin-bottom: 40px;
+    }
+}

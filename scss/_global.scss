@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  :root {
+    --font-family: "Exo 2", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Familjen Grotesk", sans-serif;
+    --font3: "Open Sans", sans-serif;
+    --font4: "Inter", sans-serif;
+  }
+  .container{
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Exo 2", sans-serif;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  ul, ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+  }
+  a{
+    text-decoration: none;
+    display: inline-block;
+  }
