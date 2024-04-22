@@ -1745,11 +1745,26 @@ a {
   text-transform: capitalize;
   text-align: center;
   color: #fff;
-  max-width: 161px;
 }
 
 .footer__bottom_block {
   max-width: 161px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .footer__top_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 100px;
+  }
+}
+.footer__bottom_block {
+  max-width: 340px;
+}
+
+.footer__bottom_block {
+  max-width: 340px;
 }/*# sourceMappingURL=main.css.map */
